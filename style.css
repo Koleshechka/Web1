@@ -1,0 +1,135 @@
+body {
+	background: white;
+	color: #286921;
+	font-family: Arial, serif;
+  font-size: 16px;
+	margin: 15px;
+}
+
+#header {
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+}
+
+.img_container {
+	width: 40%;
+	float: left;
+	text-align: center;
+	border: 2px solid #286921;
+}
+
+.input_container {
+  border: 2px solid #286921;
+	width: 40%;
+	height:371px;
+	float: right;
+	text-align: center;
+}
+
+.table_container {
+	width: 100%;
+	height: 300px;
+  float: center;
+	text-align: center;
+}
+
+img {
+	filter : hue-rotate(230deg);
+	height: 300px;
+}
+
+.row {
+	margin-bottom: 15px;
+	margin-top: 2px;
+	height:371px;
+}
+
+.container:after, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.label {
+
+	width: 20em;
+	vertical-align: top;
+	text-align: left;
+}
+
+input.text {
+	width: 230px;
+	margin-right: 20px;
+}
+
+.input-value {
+	padding-left: 10px;
+	margin-bottom: 15px;
+	padding-right: 10px;
+}
+
+input[type="radio"] {
+
+	margin-left: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+
+	opacity: 0;
+}
+
+.r {
+}
+
+.checkmark {
+    position: absolute;
+		margin-left: 20px;
+		margin-right: 20px;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.radio-container {
+    position: relative;
+    font-size: 16px;
+}
+
+
+.radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.radio-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.btn {
+	margin-top: 10px;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+  font-family: Arial, serif;
+  font-size: 20px;
+	background-color: #7aa53a;
+	color: #286921;
+	text-align: center;
+}
+
+table tr {
+    text-align-last: center;
+
+}
+
+table {
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 2px solid #286921;
+    border-radius: 0 0 15px 15px;
+
+}
